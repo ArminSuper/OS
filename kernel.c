@@ -11,7 +11,7 @@ void printf(char *str)
 
 }
 
-void kernelMain(const void* multiboot_structure, unsigned int multiboot_magic) 
+void kernelMain() 
 {
 	printf("OS kernel!");
 
